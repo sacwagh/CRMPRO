@@ -16,10 +16,10 @@ public class LoginPage {
 
 	}
 
-	@FindBy(how = How.XPATH, using = "//input[@name='username']']")
+	@FindBy(how = How.XPATH, using = "//input[@placeholder='Username']")
 	WebElement _txtusername;
 
-	@FindBy(how = How.XPATH, using = "//input[@name='password']")
+	@FindBy(how = How.XPATH, using = "//input[@placeholder='Password']")
 	WebElement _txtpassword;
 
 	@FindBy(how = How.XPATH, using = "//input[@type='submit']")
@@ -27,10 +27,12 @@ public class LoginPage {
 
 	@Test
 	public void loginToCRMPRO(String username, String password) {
-
-		_txtusername.sendKeys(username);
-		_txtpassword.sendKeys(password);
-		_btnLogin.click();
+ {
+			_txtusername.sendKeys(username);
+			_txtpassword.sendKeys(password);
+			_btnLogin.click();
+		}
+		
 
 	}
 
