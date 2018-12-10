@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class LoginPage {
 	public WebDriver driver;
 	public static String baseUrl = "";
-
+ 
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
