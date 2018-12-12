@@ -19,20 +19,20 @@ public class LoginPage extends BaseClassTest {
 	}
 
 	@FindBy(how = How.XPATH, using = "//input[@placeholder='Username']")
-	WebElement _txtusername;
+	WebElement loc_txtusername;
 
 	@FindBy(how = How.XPATH, using = "//input[@placeholder='Password']")
-	WebElement _txtpassword;
+	WebElement loc_txtpassword;
 
 	@FindBy(how = How.XPATH, using = "//input[@type='submit']")
-	WebElement _btnLogin;
+	WebElement loc_btnLogin;
 
 	@Test
 	public void loginToCRMPRO(String username, String password) {
  {
-			_txtusername.sendKeys(username);
-			_txtpassword.sendKeys(password);
-			_btnLogin.click();
+			loc_txtusername.sendKeys(username);
+			loc_txtpassword.sendKeys(password);
+			loc_btnLogin.click();
 		}
 		
 

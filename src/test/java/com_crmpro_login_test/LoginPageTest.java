@@ -13,8 +13,8 @@ public class LoginPageTest extends BaseClassTest {
 	public void checkValidLogin() {
 		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
 		//logger.info("calling loginToCRMPRO method from LoginPage Class");
-		loginpage.loginToCRMPRO("schnwgh846@gmail.com", "ts@12345");
-		Assert.assertEquals(false, true);
+		loginpage.loginToCRMPRO("sachinwagh1990@outlook.com", "sac@7890");
+		Assert.assertEquals(true, true);
 		//logger.info(" Successfully login into Application ....");
 	}
 
