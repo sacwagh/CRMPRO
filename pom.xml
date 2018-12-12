@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>gmail.automation</groupId>
-	<artifactId>GmailTest</artifactId>
+	<artifactId>CRMPROTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>GmailTest</name>
+	<name>CRMPROTest</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

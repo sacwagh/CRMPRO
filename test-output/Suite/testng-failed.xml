@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com_crmpro_testng_listerner_classes.LoginPageListeners"/>
+  </listeners>
+  <packages>
+    <package name="com_crmpro_utility.*"/>
+  </packages>
+  <test thread-count="5" name="CheckValidLoginCRMPRO(failed)">
+    <classes>
+      <class name="com_crmpro_login_test.LoginPageTest">
+        <methods>
+          <include name="checkValidLogin"/>
+          <include name="setUpTheApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com_crmpro_login_test.LoginPageTest -->
+    </classes>
+  </test> <!-- CheckValidLoginCRMPRO(failed) -->
+</suite> <!-- Failed suite [Suite] -->

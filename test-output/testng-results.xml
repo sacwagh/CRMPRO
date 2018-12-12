@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[================= Chrome Browser started.=============== ]]>
+    </line>
+    <line>
+      <![CDATA[==================Application started====================]]>
+    </line>
+    <line>
+      <![CDATA[==================Application Ended====================]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2879" started-at="2018-12-12T13:11:46Z" finished-at="2018-12-12T13:11:49Z">
+    <groups>
+    </groups>
+    <test name="CheckValidLoginCRMPRO" duration-ms="2879" started-at="2018-12-12T13:11:46Z" finished-at="2018-12-12T13:11:49Z">
+      <class name="com_crmpro_login_test.LoginPageTest">
+        <test-method status="PASS" signature="setUpTheApplication()[pri:0, instance:com_crmpro_login_test.LoginPageTest@6150c3ec]" name="setUpTheApplication" is-config="true" duration-ms="17270" started-at="2018-12-12T13:11:29Z" finished-at="2018-12-12T13:11:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[================= Chrome Browser started.=============== ]]>
+            </line>
+            <line>
+              <![CDATA[==================Application started====================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpTheApplication -->
+        <test-method status="PASS" signature="checkValidLogin()[pri:0, instance:com_crmpro_login_test.LoginPageTest@6150c3ec]" name="checkValidLogin" duration-ms="2823" started-at="2018-12-12T13:11:47Z" description="TO check valid username and password to login application" finished-at="2018-12-12T13:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com_crmpro_login_test.LoginPageTest@6150c3ec]" name="tearDown" is-config="true" duration-ms="626" started-at="2018-12-12T13:11:49Z" finished-at="2018-12-12T13:11:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[==================Application Ended====================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com_crmpro_login_test.LoginPageTest -->
+    </test> <!-- CheckValidLoginCRMPRO -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,9 +1,9 @@
 package com_crmpro_base_class;
 
-import org.testng.annotations.AfterMethod;
+
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
@@ -16,7 +16,7 @@ public class BaseClassTest {
 	public static WebDriver driver;
 	public static String baseUrl = "";
 
-	public static Logger logger = Logger.getLogger("CrmproLog");
+//	public static Logger logger = Logger.getLogger("CrmproLog");
 	
 	@BeforeSuite
 	

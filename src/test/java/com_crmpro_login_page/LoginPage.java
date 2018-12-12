@@ -7,9 +7,11 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-public class LoginPage {
-	public WebDriver driver;
-	public static String baseUrl = "";
+import com_crmpro_base_class.BaseClassTest;
+
+public class LoginPage extends BaseClassTest {
+	//public WebDriver driver;
+	//public static String baseUrl = "";
  
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);

@@ -6,10 +6,14 @@
 			class-name="com_crmpro_testng_listerner_classes.LoginPageListeners">
 		</listener>
 	</listeners>
-	<test thread-count="5" name="Test">
+	<packages>
+		<package name="com_crmpro_utility.*" />
+	</packages>
+	<test thread-count="5" name="CheckValidLoginCRMPRO">
 		<classes>
 			<class name="com_crmpro_login_test.LoginPageTest" />
 		</classes>
 
 	</test> <!-- Test -->
+
 </suite> <!-- Suite -->
