@@ -12,14 +12,17 @@ public class CalendarPage extends BaseClassTest {
 	CalendarPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	
-	//Finding element on calendar home page 
-	@FindBy(how=How.CSS,using=" select[name=load_calendar_for_user_id]")
+
+	// Finding element on calendar home page
+
+	// calender
+	@FindBy(how = How.CSS, using = " select[name=load_calendar_for_user_id]")
 	WebElement loc_calendarForUser;
-	
-	@FindBy(how=How.CSS,using=" select[name=load_calendar_for_user_id]")
+
+	// user search button
+	@FindBy(how = How.CSS, using = " select[name=load_calendar_for_user_id]")
 	WebElement loc_btnUserSearch;
-	
+
 	public void toCheckCalenarIsOpenOnbtnClick() {
 	}
 }
